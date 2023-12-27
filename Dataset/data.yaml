@@ -1,0 +1,7 @@
+train: ./train.txt
+val: ./val.txt
+test: ./test.txt # optional
+# number of classes
+nc: 5
+# class names
+names: ["baby_face","nose","mouth","nipple","blanket"]

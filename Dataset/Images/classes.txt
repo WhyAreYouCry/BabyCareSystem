@@ -1,0 +1,5 @@
+baby_face
+nose
+mouth
+nipple
+blanket
