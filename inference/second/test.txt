@@ -1,0 +1,10 @@
+                 all          28          83       0.835        0.88       0.969       0.733
+           baby_face          28          28       0.677           1       0.995       0.766
+                nose          28          28       0.914       0.964       0.972       0.691
+               mouth          28          24       0.751           1       0.995        0.68
+              nipple          28           3           1       0.557       0.913       0.797
+Speed: 22.4/1.7/24.1 ms inference/NMS/total per 640x640 image at batch-size 32
+
+Evaluating pycocotools mAP... saving runs\test\exp\best_predictions.json...
+pycocotools unable to run: No module named 'pycocotools'
+Results saved to runs\test\exp

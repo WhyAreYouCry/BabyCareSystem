@@ -1,0 +1,11 @@
+                 all          28          83       0.886       0.877       0.968       0.721
+           baby_face          28          28       0.786           1       0.993        0.75
+                nose          28          28       0.959       0.964       0.971       0.689
+               mouth          28          24         0.8           1       0.995       0.666
+              nipple          28           3           1       0.544       0.913        0.78
+300 epochs completed in 1.061 hours.
+
+Optimizer stripped from runs\train\exp2\weights\last.pt, 74.8MB
+Optimizer stripped from runs\train\exp2\weights\best.pt, 74.8MB
+PS C:\Users\t\BabyCareSystem> python test.py --weights  runs\train\exp2\weights\best.pt 
+Namespace(augment=False, batch_size=32, conf_thres=0.001, data='data/coco.yaml', device='', exist_ok=False, img_size=640, iou_thres=0.65, name='exp', no_trace=False, project='runs/test', save_conf=False, save_hybrid=False, save_json=Tr
